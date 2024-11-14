@@ -102,7 +102,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Реквизит1</name>
-    <id>10</id>
+    <id>16</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -113,7 +113,7 @@
     </dataPath>
     <extendedTooltip>
       <name>Реквизит1РасширеннаяПодсказка</name>
-      <id>12</id>
+      <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -128,6 +128,56 @@
     </extendedTooltip>
     <contextMenu>
       <name>Реквизит1КонтекстноеМеню</name>
+      <id>17</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Реквизит3</name>
+    <id>10</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Реквизит3</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>Реквизит3РасширеннаяПодсказка</name>
+      <id>12</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>Реквизит3КонтекстноеМеню</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -292,7 +342,7 @@
   </attributes>
   <attributes>
     <name>Реквизит1</name>
-    <id>2</id>
+    <id>4</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -307,6 +357,24 @@
   <attributes>
     <name>Реквизит2</name>
     <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Реквизит3</name>
+    <title>
+      <key>ru</key>
+      <value>Реквизит3</value>
+    </title>
+    <id>2</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
