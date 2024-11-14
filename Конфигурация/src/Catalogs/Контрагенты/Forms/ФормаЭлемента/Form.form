@@ -306,13 +306,17 @@
     <items xsi:type="form:FormField">
       <name>Реквизит4</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>мчсмчмчсм</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1</segments>
+        <segments>Реквизит3</segments>
       </dataPath>
       <extendedTooltip>
         <name>Реквизит4РасширеннаяПодсказка</name>
