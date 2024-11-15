@@ -448,7 +448,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Реквизит3</segments>
+          <segments>Реквизит2</segments>
         </dataPath>
         <extendedTooltip>
           <name>Реквизит6РасширеннаяПодсказка</name>
